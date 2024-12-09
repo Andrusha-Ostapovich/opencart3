@@ -1,0 +1,36 @@
+<!-- Модалка -->
+<div class="modal" id="productModal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-container">
+            <!-- Динамічний контент -->
+        </div>
+        <!-- Фільтри і кнопки для зміни параметрів -->
+        <div class="modal-controls">
+            <div class="filter-group">
+                <label for="limit-select">Кількість товарів:</label>
+                <select id="limit-select" class="filter-select">
+                    <option value="5">5 товарів</option>
+                    <option value="10">10 товарів</option>
+                    <option value="20">20 товарів</option>
+                    <option value="50">50 товарів</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="sort-select">Сортування за:</label>
+                <select id="sort-select" class="filter-select">
+                    <option value="p.price">Ціна</option>
+                    <option value="p.name">Назва</option>
+                    <option value="p.date_added">Дата додавання</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="order-select">Порядок сортування:</label>
+                <select id="order-select" class="filter-select">
+                    <option value="ASC">По зростанню</option>
+                    <option value="DESC">По спаданню</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
